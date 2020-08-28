@@ -1,24 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Header } from "./components/Header";
+import { Project } from "./components/Project";
+import { ProjectFilter } from "./components/ProjectFilter";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <section className="full_section container">
+        <h2>Projects</h2>
+        <ProjectFilter />
+        <div className="card-deck">
+          <Project
+            pname="Portfolio"
+            ptags={["react", "mongodb", "bootstrap", "css", "html"]}
+          />
+          <Project
+            pname="Blog"
+            ptags={["wordpress", "php", "react", "gatsby"]}
+          />
+          <Project pname="Test" ptags={["this", "that"]} />
+        </div>
+      </section>
     </div>
   );
 }

@@ -1,3 +1,6 @@
+This is the React version of my portfolio, the idea is to develop several version in different frameworks and languages.
+The backend part of the portfolio can be found in [this repository](#)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

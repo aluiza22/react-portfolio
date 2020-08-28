@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
-.App {
-  font-family: Abel, sans-serif;
-  text-align: left;
-}
+
+* {outline: 0;}
 
 html,
 body {
@@ -10,8 +8,18 @@ body {
   padding: 0;
 }
 
+.App {
+  font-family: Abel, sans-serif;
+  text-align: left;
+}
+
 .full_section {
   padding-top: 80px;
   padding-bottom: 80px;
 }
 
+.custom-select:focus {
+    border-color: #4ccb94;
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem #01ff91;
+}

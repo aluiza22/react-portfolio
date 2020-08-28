@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-//import { Devices } from "../core/Devices";
 import { Theme } from "../core/Theme";
 import { Tag } from "./Tag";
 

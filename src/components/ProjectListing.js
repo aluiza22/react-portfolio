@@ -14,11 +14,14 @@ const ProjectList = styled.div`
   position: relative;
   max-width: 100%;
   border: none;
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 `;
 
 export const ProjectListing = (props) => {
   return (
-    <ProjectList className="card-deck">
+    <ProjectList>
       <Project
             pname="Portfolio"
             ptags={["react", "mongodb", "bootstrap", "css", "html"]}
@@ -27,6 +30,7 @@ export const ProjectListing = (props) => {
         pname="Blog"
         ptags={["wordpress", "php", "react", "gatsby"]}
       />
+      <Project pname="100 days of code" ptags={["react", "css", "javascript"]} />
       <Project pname="Test" ptags={["this", "that"]} />
     </ProjectList>
   );

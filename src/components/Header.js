@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "@reach/router";
 import styled from "styled-components";
 import { Devices } from "../core/Devices";
 import { Theme } from "../core/Theme";
@@ -149,8 +150,8 @@ export const Header = (props) => {
             </LogoContainer>
           </Left>
           <CenterLinks>
-            <CenterLink>Projects</CenterLink>
-            <CenterLink>Curriculum</CenterLink>
+            <CenterLink><Link to="/">Projects</Link></CenterLink>
+            <CenterLink><Link to="cv">Curriculum</Link></CenterLink>
             <CenterLinkWithBadge
               badgeText="QUIZ"
               colour="#2a2a2a"

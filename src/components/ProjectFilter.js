@@ -12,51 +12,67 @@ const FilterForm = styled.form`
   padding: 10px;
 `;
 
+const DefaultState = {
+  skill: '',
+  year: ''
+}
+
 export class ProjectFilter extends React.Component {
-  state = {
-      skillFilter: ""
-    };
+  state = Object.assign({}, DefaultState)
+
+  handleChange = (prop, value) => {
+    this.setState({
+      [prop]: value
+    })
+  }
 
   render() {
-    const { skillFilter } = this.state;
+    const { skill, year } = this.state;
+    const { skills, years, updateFilter } = this.props;
+    
+    let allSkills = [];
+    skills.forEach(mergeSKills);
+    function mergeSKills(item, index) {
+      allSkills = allSkills.concat(item);
+    }
+
+    let allYears = [];
+    years.forEach(mergeYears);
+    function mergeYears(item, index) {
+      allYears = allYears.concat(item);
+    }
+
     return (
       <ProjectFilterContainer>
-        <FilterForm className="form-row">
+        <FilterForm className="form-row" onChange={() => setTimeout(() => updateFilter(this.state), 0)} noValidate>
           <div className="col">
             <select 
               className="custom-select" 
               id="skill" 
-              value={skillFilter}
+              value={skill}
               onChange={e => {
-                  this.setState({ skillFilter: e.currentTarget.value });
+                  this.handleChange( 'skill', e.currentTarget.value );
                   alert(`The skill filtered is ${e.currentTarget.value}`);
               }}>
-              <option value="" selected disabled>Filter by skill</option>
-              <option value="HTML">HTML</option>
-              <option value="CSS">CSS</option>
-              <option value="JavaScript">JavaScript</option>
-              <option value="JQuery">JQuery</option>
-              <option value="PHP">PHP</option>
-              <option value="Wordpress">Wordpress</option>
-              <option value="Magento">Magento</option>
-              <option value="React Native">React Native</option>
-              <option value="React">React</option>
-              <option value="MySQL">MySQL</option>
-              <option value="PostgreSQL">PostgreSQL</option>
-              <option value="MongoDB">MongoDB</option>
+              <option value="" disabled>Filter by skill</option>
+              {allSkills.filter((item, i, arr) => arr.indexOf(item) === i).map((sk, i) => (
+                <option key={i} value={sk}>{sk}</option>
+              ))}
             </select>
           </div>
           <div className="col">
-            <select className="custom-select" id="year">
-              <option value="" selected disabled>Filter by year</option>
-              <option value="2013">2013</option>
-              <option value="2014">2014</option>
-              <option value="2015">2015</option>
-              <option value="2016">2016</option>
-              <option value="2017">2017</option>
-              <option value="2018">2018</option>
-              <option value="2019">2019</option>
-              <option value="2020">2020</option>
+            <select 
+              className="custom-select" 
+              id="year" 
+              value={year}
+              onChange={e => {
+                  this.handleChange( 'year', e.currentTarget.value );
+                  alert(`The year filtered is ${e.currentTarget.value}`);
+              }}>
+              <option value="" disabled>Filter by year</option>
+              {allYears.filter((item, i, arr) => arr.indexOf(item) === i).map((yr, i) => (
+                <option key={i} value={yr}>{yr}</option>
+              ))}
             </select>
           </div>
       </FilterForm>

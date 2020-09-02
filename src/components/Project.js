@@ -33,15 +33,18 @@ const ProjectTags = styled.div`
   max-width: 100%;
 `;
 
+
+
 export const Project = (props) => {
+  const {id, image, title, link, description, years, skills } = props.listing;
   return (
-    <ProjectBox className="card bg-dark text-white">
+    <ProjectBox className="card bg-dark text-white" key={id}>
       <ProjectImage />
       <ProjectInfo className="card-img-overlay">
-        <ProjectName>{props.pname}</ProjectName>
+        <ProjectName>{title}</ProjectName>
         <ProjectTags>
-          {props.ptags.map((tag, i) => (
-            <Tag key={i} tag={tag} />
+          {skills.map((tag, i) => (
+            <Tag tag={tag} key={i} />
           ))}
         </ProjectTags>
       </ProjectInfo>

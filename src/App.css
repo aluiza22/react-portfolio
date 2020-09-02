@@ -18,6 +18,9 @@ body {
   padding-bottom: 80px;
 }
 
+.custom-select {
+	border-radius: 0;
+}
 .custom-select:focus {
     border-color: #4ccb94;
     outline: 0;

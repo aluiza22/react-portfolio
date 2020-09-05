@@ -15,10 +15,10 @@ export class ProjectListingsProvider extends React.Component {
     const { skill, year } = filter;
     let result = listings;
     if (skill) {
-      result = result.filter(item => item.skills.map().contains(skill));
+      result = result.filter(item => item.skills.includes(skill));
     }
     if (year) {
-      result = result.filter(item => item.year.map().contains(year));
+      result = result.filter(item => item.years.includes(year));
     }
     return result;
   }

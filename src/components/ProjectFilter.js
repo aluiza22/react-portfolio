@@ -52,7 +52,6 @@ export class ProjectFilter extends React.Component {
               value={skill}
               onChange={e => {
                   this.handleChange( 'skill', e.currentTarget.value );
-                  alert(`The skill filtered is ${e.currentTarget.value}`);
               }}>
               <option value="" disabled>Filter by skill</option>
               {allSkills.filter((item, i, arr) => arr.indexOf(item) === i).map((sk, i) => (
@@ -67,7 +66,6 @@ export class ProjectFilter extends React.Component {
               value={year}
               onChange={e => {
                   this.handleChange( 'year', e.currentTarget.value );
-                  alert(`The year filtered is ${e.currentTarget.value}`);
               }}>
               <option value="" disabled>Filter by year</option>
               {allYears.filter((item, i, arr) => arr.indexOf(item) === i).map((yr, i) => (

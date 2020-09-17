@@ -28,6 +28,58 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script type="text/javascript">
+      var ajax = new XMLHttpRequest();
+      ajax.open("GET", "icons.svg", true);
+      ajax.send();
+      ajax.onload = function(e) {
+        var div = document.createElement("div");
+        div.innerHTML = ajax.responseText;
+        document.body.insertBefore(div, document.body.childNodes[0]);
+      }
+    </script>
+    <header>
+        <div id="socials">
+          <a target="_blank" href="mailto:hey@anadev.com.br">
+            <i class="icon mail">
+              <svg height="25px" width="25px" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" 
+                   style="enable-background:new 0 0 512 512;">
+                <use xlink:href="#icon-mail"></use>
+              </svg>
+            </i>
+            <span>hey@anadev.com.br</span>
+          </a>
+          <a target="_blank" href="https://linkedin.com/aluizasilva22">       
+            <i class="icon linkedin">
+              <svg height="25px" width="25px" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" 
+                   style="enable-background:new 0 0 512 512;">
+                <use xlink:href="#icon-linkedin"></use>
+              </svg>
+            </i>
+            <span>/aluizasilva22</span>
+          </a>
+          <a target="_blank" href="https://twiter.com/anadev22">
+            <i class="icon twitter">
+              <svg height="25px" width="25px" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" 
+                   style="enable-background:new 0 0 512 512;">
+                <use xlink:href="#icon-twitter"></use>
+              </svg>
+            </i>
+            <span>@anadev22</span>
+          </a>
+          <a target="_blank" href="https://instagram.com/@nalu2204">
+            <i class="icon insta">
+              <svg height="25px" width="25px" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" 
+                   style="enable-background:new 0 0 512 512;">
+                <use xlink:href="#icon-insta"></use>
+              </svg>
+            </i>
+            <span>@nalu2204</span>
+          </a>
+        </div>
+        <h1><span>A</span><span>n</span><span>a</span> <span>L</span><span>u</span><span>i</span><span>z</span><span>a</span><br/> <span>d</span><span>a</span> <span>S</span><span>i</span><span>l</span><span>v</span><span>a</span></h1>
+        <figure><img width="250" alt="black and white photo of Ana" src="https://pbs.twimg.com/profile_images/1298001409573629953/zE94CpEB_400x400.jpg" /></figure>
+    </header>
     <div id="root"></div>
     <!--
       This HTML file is a template.
@@ -39,5 +91,6 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/svg4everybody@2.1.9/dist/svg4everybody.min.js"></script>
   </body>
 </html>

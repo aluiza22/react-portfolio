@@ -1,9 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import { Theme } from "../core/Theme";
 
 const ProjectFilterContainer = styled.div`
-    background-color: ${Theme.main_color};
+    background-color: var(--main_color);
     margin: 30px 0px 15px;
 
   `;

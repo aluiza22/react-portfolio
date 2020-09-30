@@ -1,12 +1,13 @@
 [
   {
     "id": 1,
-    "image": "1.jpg",
-    "title": "Portfolio",
-    "link": "http://anadev.com.br/",
+    "type": "academic",
+    "title": "Technologist with honors, Internet Systems",
+    "institution": "UNIVALI",
+    "place": "Itajaí, Brazil",
     "description": "Lorem ipsum dollor sit amet",
     "years": [
-      "2016", "2017"
+      "2013", "2018"
     ],
     "skills": [
       "react", 
@@ -18,33 +19,56 @@
   },
   {
     "id": 2,
-    "image": "21.jpg",
-    "title": "Blog",
-    "link": "http://anadev.com.br/",
+    "type": "professional",
+    "title": "Frontend developer",
+    "institution": "IWX Web",
+    "place": "Itajaí, Brazil",
+    "description": "Lorem ipsum dollor sit amet",
+    "years": [
+      "2013", "2014"
+    ],
+    "skills": [
+      "react", 
+      "mongodb", 
+      "bootstrap", 
+      "css", 
+      "html"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "professional",
+    "title": "Fullstack developer",
+    "institution": "BPM Comunicação",
+    "place": "Itajaí, Brazil",
+    "description": "Lorem ipsum dollor sit amet",
+    "years": [
+      "2014", "2015"
+    ],
+    "skills": [
+      "react", 
+      "mongodb", 
+      "bootstrap", 
+      "css", 
+      "html"
+    ]
+  },
+  {
+    "id": 4,
+    "type": "academic",
+    "title": "Brazilian Scientific Mobility Program Student – USA, Information Systems",
+    "institution": "NJIT",
+    "place": "Newar, USA",
     "description": "Lorem ipsum dollor sit amet",
     "years": [
       "2015", "2016"
     ],
     "skills": [
-      "wordpress", 
-      "php", 
       "react", 
-      "gatsby"
-    ]
-  },
-  {
-    "id": 3,
-    "image": "3.jpg",
-    "title": "Test",
-    "link": "http://anadev.com.br/",
-    "description": "Lorem ipsum dollor sit amet",
-    "years": [
-      "2015"
-    ],
-    "skills": [
-      "this", 
-      "that", 
-      "css"
+      "mongodb", 
+      "bootstrap", 
+      "css", 
+      "html"
     ]
   }
 ]

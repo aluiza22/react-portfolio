@@ -1,7 +1,8 @@
 import React from "react";
 import { Router, Link } from "@reach/router";
 import { Projects } from "./pages/Projects";
-import { Curriculum } from "./pages/Curriculum";
+import { AboutMe } from "./pages/AboutMe";
+import { Blog } from "./pages/Blog";
 import { Quiz } from "./pages/Quiz";
 import "./App.css";
 
@@ -12,68 +13,72 @@ function App() {
 	      <aside>
 		    <section>
 				<h2>Skills</h2>
-				<p>CSS 
-					<progress max="100" value="90">
-						<div class="progress-bar">
-			                <span style={{width:'90%'}}>90%</span>
-			            </div>
-			        </progress>
-				</p>
-				<p>HTML 
-					<progress max="100" value="90">
-						<div class="progress-bar">
-			                <span style={{width:'90%'}}>90%</span>
-			            </div>
-			        </progress>
-				</p>
-				<p>JS 
-					<progress max="100" value="70">
-						<div class="progress-bar">
-			                <span style={{width:'70%'}}>70%</span>
-			            </div>
-			        </progress>
-				</p>
-				<p>React 
-					<progress max="100" value="50">
-						<div class="progress-bar">
-			                <span style={{width:'50%'}}>50%</span>
-			            </div>
-			        </progress>
-				</p>
-				<p>PHP 
-					<progress max="100" value="70">
-						<div class="progress-bar">
-			                <span style={{width:'70%'}}>70%</span>
-			            </div>
-			        </progress>
-				</p>
-				<p>Wordpress 
-					<progress max="100" value="80">
-						<div class="progress-bar">
-			                <span style={{width:'80%'}}>80%</span>
-			            </div>
-			        </progress>
-				</p>
-				<p>Magento 
-					<progress max="100" value="80">
-						<div class="progress-bar">
-			                <span style={{width:'80%'}}>80%</span>
-			            </div>
-			        </progress>
-				</p>
+				<ul id="mainSkills">
+					<li>CSS 
+						<progress max="100" value="90">
+							<div className="progress-bar">
+				                <span style={{width:'90%'}}>90%</span>
+				            </div>
+				        </progress>
+					</li>
+					<li>HTML 
+						<progress max="100" value="90">
+							<div className="progress-bar">
+				                <span style={{width:'90%'}}>90%</span>
+				            </div>
+				        </progress>
+					</li>
+					<li>JS 
+						<progress max="100" value="70">
+							<div className="progress-bar">
+				                <span style={{width:'70%'}}>70%</span>
+				            </div>
+				        </progress>
+					</li>
+					<li>React 
+						<progress max="100" value="50">
+							<div className="progress-bar">
+				                <span style={{width:'50%'}}>50%</span>
+				            </div>
+				        </progress>
+					</li>
+					<li>PHP 
+						<progress max="100" value="70">
+							<div className="progress-bar">
+				                <span style={{width:'70%'}}>70%</span>
+				            </div>
+				        </progress>
+					</li>
+					<li>Wordpress 
+						<progress max="100" value="80">
+							<div className="progress-bar">
+				                <span style={{width:'80%'}}>80%</span>
+				            </div>
+				        </progress>
+					</li>
+					<li>Magento 
+						<progress max="100" value="80">
+							<div className="progress-bar">
+				                <span style={{width:'80%'}}>80%</span>
+				            </div>
+				        </progress>
+					</li>
+					</ul>
 				<p>Ajax | APIs REST | Bootstrap | CakePHP | Cordova | Git | JQuery | JSON | Linux | MongoDB | MVC | MySQL | npm | Phonegap | Photoshop | PostgreSQL | React Native | Ruby on Rails | SASS | SCRUM | SEO | SVN | Trello | Web services | Windows | WooCommerce | Vue.js | XML</p>
 			</section>
 	      </aside>
 	      <Router>
 	        <Projects path="/" />
-	        <Curriculum path="cv" />
+	        <AboutMe path="me" />
+	        <Blog path="blog" />
 	        <Quiz path="quiz" />
 	      </Router>
 	    </main>
 	    <footer>
 			<nav>
 				<Link to="/">projects</Link>
-				<Link to="cv">curriculum</Link>
+				<Link to="me">about me</Link>
+				<Link to="blog">blog</Link>
 				<Link to="quiz">are we a good fit?</Link>
 			</nav>
 		</footer>

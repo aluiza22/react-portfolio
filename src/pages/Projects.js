@@ -17,7 +17,7 @@ const ProjectsList = styled.div`
 export const Projects = () => {
   return (   
       <section id="ProjectsPage" className="page">
-        <h2>Projects</h2>
+        <h2>What I've done</h2>
         <ProjectListingsProvider>
           <ProjectListingsConsumer>
             {({ projectsListings, allListings, updateFilter }) => (     

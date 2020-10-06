@@ -2,19 +2,24 @@
   {
     "id": 1,
     "type": "academic",
-    "title": "Technologist with honors, Internet Systems",
-    "institution": "UNIVALI",
+    "title": "TECHNOLOGIST, INTERNET SYSTEMS",
+    "institution": "Universidade do Vale do Itajaí",
     "place": "Itajaí, Brazil",
-    "description": "Lorem ipsum dollor sit amet",
+    "description": "I learned to identify, analyze, design, implement, deploy, evaluate and maintain efficient and secure web systems, based on free software and based on appropriate methodologies and techniques, following ethical and scientific precepts. Final Project: Developed a ReactNative app for domestic events called Plugged.",
     "years": [
       "2013", "2018"
     ],
     "skills": [
-      "react", 
-      "mongodb", 
-      "bootstrap", 
-      "css", 
-      "html"
+      "html", 
+      "css",
+      "javascript",
+      "php", 
+      "java", 
+      "postgresql",
+      "mongodb",
+      "linux",
+      "gimp",
+      "react native"
     ]
   },
   {
@@ -23,16 +28,18 @@
     "title": "Frontend developer",
     "institution": "IWX Web",
     "place": "Itajaí, Brazil",
-    "description": "Lorem ipsum dollor sit amet",
+    "description": "I developed static websites and the front end part of e-commerce Magento stores.",
     "years": [
       "2013", "2014"
     ],
     "skills": [
-      "react", 
-      "mongodb", 
-      "bootstrap", 
       "css", 
-      "html"
+      "html", 
+      "magento", 
+      "javascript", 
+      "mysql",
+      "xml",
+      "photoshop"
     ]
   },
   {
@@ -41,25 +48,47 @@
     "title": "Fullstack developer",
     "institution": "BPM Comunicação",
     "place": "Itajaí, Brazil",
-    "description": "Lorem ipsum dollor sit amet",
+    "description": "I developed websites and web systems using HTML, CSS, JavaScript, PHP and MySQL.",
     "years": [
       "2014", "2015"
     ],
     "skills": [
-      "react", 
-      "mongodb", 
-      "bootstrap", 
+      "html", 
       "css", 
-      "html"
+      "php", 
+      "javascript", 
+      "jquery",
+      "mysql",
+      "laravel",
+      "wordpress",
+      "SEO",
+      "photoshop"
     ]
   },
   {
     "id": 4,
+    "type": "volunteer",
+    "title": "Marketing Manager of Outgoing Exchanges",
+    "institution": "AIESEC in Balneário Camboriú",
+    "place": "Balneário Camboriú, Brazil",
+    "description": "I analysed conversion numbers of people registering and doing the AIESEC exchange, from different marketing medias, and monitor processes of the customer service team.",
+    "years": [
+      "2014", "2015"
+    ],
+    "skills": [
+      "excel", 
+      "illustrator",
+      "public speech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 5,
     "type": "academic",
     "title": "Brazilian Scientific Mobility Program Student – USA, Information Systems",
-    "institution": "NJIT",
-    "place": "Newar, USA",
-    "description": "Lorem ipsum dollor sit amet",
+    "institution": "New Jersey Institute of Technology",
+    "place": "Newark, USA",
+    "description": "Brazilian Scientific Mobility Program Student – USA ​(08/2015 – 08-2016) Competitive scholarship program, provides students atriculated at Brazilian universities an opportunity to pursue study at universities in many countries.",
     "years": [
       "2015", "2016"
     ],
@@ -69,6 +98,94 @@
       "bootstrap", 
       "css", 
       "html"
+    ]
+  },
+  {
+    "id": 6,
+    "type": "professional",
+    "title": "Fullstack developer",
+    "institution": "PrismaFive",
+    "place": "Itajaí, Brazil",
+    "description": "I develop and take care of Magento stores, WebExtension and apps integrated with pharmacy ERP system.",
+    "years": [
+      "2016", "2017"
+    ],
+    "skills": [
+      "html", 
+      "css", 
+      "php", 
+      "javascript", 
+      "jquery",
+      "mysql",
+      "SEO",
+      "magento"
+    ]
+  },
+  {
+    "id": 7,
+    "type": "professional",
+    "title": "Fullstack developer",
+    "institution": "Freelancing",
+    "place": "anadev",
+    "description": "I develop and maintain websites and ecommerces.",
+    "years": [
+      "2016", "↝"
+    ],
+    "skills": [
+      "html", 
+      "css", 
+      "php", 
+      "javascript", 
+      "jquery",
+      "mysql",
+      "magento",
+      "wordpress",
+      "SEO",
+      "photoshop"
+    ]
+  },
+  {
+    "id": 8,
+    "type": "professional",
+    "title": "Fullstack developer",
+    "institution": "BPM Comunicação",
+    "place": "Itajaí, Brazil",
+    "description": "I develop and mantain websites using Wordpress.",
+    "years": [
+      "2017", "2018"
+    ],
+    "skills": [
+      "html", 
+      "css", 
+      "php", 
+      "javascript", 
+      "jquery",
+      "mysql",
+      "wordpress",
+      "SEO",
+      "photoshop"
+    ]
+  },
+  {
+    "id": 9,
+    "type": "professional",
+    "title": "Fullstack developer",
+    "institution": "Ingage Digital",
+    "place": "Belo Horizonte, Brazil",
+    "description": "I develop and take care of websites and WordPress blogs, focusing on SEO and marketing techniques.",
+    "years": [
+      "2018", "2019"
+    ],
+    "skills": [
+      "html", 
+      "css", 
+      "php", 
+      "javascript", 
+      "jquery",
+      "mysql",
+      "wordpress",
+      "SEO",
+      "photoshop"
     ]
   }
 ]

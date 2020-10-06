@@ -15,7 +15,9 @@ export class JourneyListingsProvider extends React.Component {
     const { year } = filter;
     let result = listings;
     if (year) {
-      result = result.filter(item => item.years.includes(year));
+      result = result
+        .filter(item => item.years[0] <= year && year <= item.years[1])
+        .sort((a,b) => b.years[0] - a.years[0]);
     }
     return result;
   }
@@ -23,7 +25,8 @@ export class JourneyListingsProvider extends React.Component {
   state = DefaultState;
 
   componentDidMount() {   
-    this.setState({ journeyListings: data });
+    const firstYear = data.map(listing => listing.years).sort()[0][0];
+    this.setState({ journeyListings: data, filter: {year: firstYear} });
   }
 
   getListingByProjectId = projectsId => {

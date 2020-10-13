@@ -17,7 +17,8 @@
     ],
     "group": [
       "mobile"
-    ]
+    ],
+    "experience": "univali"
   },
   {
     "id": 2,
@@ -37,13 +38,14 @@
     ],
     "group": [
       "fullstack", "school project"
-    ]
+    ],
+    "experience": "univali"
   },
   {
     "id": 3,
     "image": "https://anadev.com.br/projects/images/thumbs/connuntius.jpg",
     "title": "Connuntius",
-    "link": "http://ana.projetointegrador.org/connuntius/",
+    "link": "https://anadev.com.br/projects/Connuntius/",
     "description": "agregador de notícias",
     "years": [
       "2013"
@@ -55,7 +57,940 @@
       "html"
     ],
     "group": [
-      "frontend", "school project"
-    ]
+      "frontend"
+    ],
+    "experience": "univali",
+    "tipo": "academic"
+  },
+  {
+    "id": 4,
+    "title": "Rocha Decorações",
+    "link": "https://rochadecoracoes.com.br/",
+    "description": "Comercial website with quotes funcionality",
+    "years": [
+      "2012", "2012"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "php",
+      "javascript"
+    ],
+    "group": [
+      "frontend"
+    ],
+    "experience": "bpm",
+    "tipo": "ecommerce"
+  },
+  {
+    "id": 5,
+    "title": "",
+    "link": "http://importadorakima.com.br/",
+    "description": "Magento store for artesanal products",
+    "years": [
+      "2014", "2014"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "php",
+      "mysql",
+      "magento",
+      "xml"
+    ],
+    "group": [
+      "frontend", "design"
+    ],
+    "experience": "freela",
+    "tipo": "ecommerce"
+  },
+  {
+    "id": 6,
+    "title": "Loja Instaladora",
+    "link": "http://www.lojainstaladora.com.br/",
+    "description": "Wordpress comercial website with quotes funcionality",
+    "years": [
+      "2017", "2017"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript",
+      "php",
+      "wordpress",
+      "mysql"
+    ],
+    "group": [
+      "fullstack", "frontend", "backend"
+    ],
+    "experience": "bpm",
+    "tipo": "website"
+  },
+  {
+    "id": 7,
+    "title": "Casatrend",
+    "link": "https://casatrend.com.br/",
+    "description": "Institucional Wordpress website",
+    "years": [
+      "2017", "2017"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript",
+      "php",
+      "wordpress",
+      "mysql"
+    ],
+    "group": [
+      "fullstack", "frontend", "backend"
+    ],
+    "experience": "bpm",
+    "tipo": "website"
+  },
+  {
+    "id": 8,
+    "title": "Exponent Engenharia",
+    "link": "http://exponent.eng.br/",
+    "description": "Institucional Wordpress website",
+    "years": [
+      "2018", "2018"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript",
+      "php",
+      "wordpress",
+      "mysql"
+    ],
+    "group": [
+      "fullstack", "frontend", "backend"
+    ],
+    "experience": "bpm",
+    "tipo": "website"
+  },
+  {
+    "id": 9,
+    "title": "Forjaria Krux",
+    "link": "https://forjariakrux.com/",
+    "description": "Gothic jewlery Magento ecommerce",
+    "years": [
+      "2017", "2018"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript",
+      "php",
+      "magento",
+      "mysql"
+    ],
+    "group": [
+      "fullstack", "frontend", "backend"
+    ],
+    "experience": "freela",
+    "tipo": "ecommerce"
+  },
+  {
+    "id": 10,
+    "title": "Tavares e Bastos",
+    "link": "http://tavaresbastos.com.br/",
+    "description": "Institucional Wordpress website",
+    "years": [
+      "2017", "2017"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript",
+      "php",
+      "wordpress",
+      "mysql"
+    ],
+    "group": [
+      "fullstack", "frontend", "backend"
+    ],
+    "experience": "bpm",
+    "tipo": "website"
+  },
+  {
+    "id": 11,
+    "title": "Robustec",
+    "link": "https://www.robustec.ind.br/",
+    "description": "Wordpress comercial website with quotes funcionality",
+    "years": [
+      "2017", "2018"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript",
+      "php",
+      "wordpress",
+      "mysql"
+    ],
+    "group": [
+      "fullstack", "frontend", "backend"
+    ],
+    "experience": "freela",
+    "tipo": "ecommerce"
+  },
+  {
+    "id": 12,
+    "title": "Plenus Empreendimentos",
+    "link": "http://plenusempreendimentos.com.br/",
+    "description": "Institucional Wordpress website",
+    "years": [
+      "2018", "2018"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript",
+      "php",
+      "wordpress",
+      "mysql"
+    ],
+    "group": [
+      "fullstack", "frontend", "backend"
+    ],
+    "experience": "bpm",
+    "tipo": "website"
+  },
+  {
+    "id": 13,
+    "title": "Cabeçudas Iate Clube",
+    "link": "http://cabecudasiate.com.br/",
+    "description": "Institucional Wordpress website",
+    "years": [
+      "2018", "2018"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript",
+      "php",
+      "wordpress",
+      "mysql"
+    ],
+    "group": [
+      "fullstack", "frontend", "backend"
+    ],
+    "experience": "bpm",
+    "tipo": "website"
+  },
+  {
+    "id": 14,
+    "title": "Midas Comex",
+    "link": "http://www.midascomex.com.br/",
+    "description": "Institucional Wordpress website",
+    "years": [
+      "2018", "2018"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript",
+      "php",
+      "wordpress",
+      "mysql"
+    ],
+    "group": [
+      "fullstack", "frontend", "backend"
+    ],
+    "experience": "bpm",
+    "tipo": "website"
+  },
+  {
+    "id": 15,
+    "title": "Sorvetes Stringari",
+    "link": "http://stringari.com.br/",
+    "description": "Institucional Wordpress website",
+    "years": [
+      "2018", "2018"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript",
+      "php",
+      "wordpress",
+      "mysql"
+    ],
+    "group": [
+      "fullstack", "frontend", "backend"
+    ],
+    "experience": "bpm",
+    "tipo": "website"
+  },
+  {
+    "id": 16,
+    "title": "Stone Raja",
+    "link": "http://stoneraja.com.br/",
+    "description": "Comercial Wordpress website",
+    "years": [
+      "2019", "2019"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript",
+      "php",
+      "wordpress",
+      "mysql"
+    ],
+    "group": [
+      "fullstack", "frontend", "backend"
+    ],
+    "experience": "freela",
+    "tipo": "website"
+  },
+  {
+    "id": 17,
+    "title": "Hospital da Baleia",
+    "link": "https://hospitaldabaleia.org.br/",
+    "description": "Institucional Wordpress website and blog",
+    "years": [
+      "2019", "2019"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript",
+      "php",
+      "wordpress",
+      "mysql"
+    ],
+    "group": [
+      "fullstack", "frontend", "backend"
+    ],
+    "experience": "ingage",
+    "tipo": "website"
+  },
+  {
+    "id": 18,
+    "title": "DRG Brasil",
+    "link": "https://www.drgbrasil.com.br/",
+    "description": "Institucional Wordpress website and blog",
+    "years": [
+      "2019", "2019"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript",
+      "php",
+      "wordpress",
+      "mysql"
+    ],
+    "group": [
+      "fullstack", "frontend", "backend"
+    ],
+    "experience": "ingage",
+    "tipo": "website"
+  },
+  {
+    "id": 19,
+    "title": "Urba",
+    "link": "https://vivaurba.com.br/",
+    "description": "Institucional Wordpress website and blog",
+    "years": [
+      "2019", "2019"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript",
+      "php",
+      "wordpress",
+      "mysql"
+    ],
+    "group": [
+      "fullstack", "frontend", "backend"
+    ],
+    "experience": "ingage",
+    "tipo": "website"
+  },
+  {
+    "id": 20,
+    "title": "",
+    "link": "https://concessionariareviver.com.br/",
+    "description": "Institucional website",
+    "years": [
+      "2018", "2018"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript",
+      "php"
+    ],
+    "group": [
+      "frontend"
+    ],
+    "experience": "ingage",
+    "tipo": "website"
+  },
+  {
+    "id": 21,
+    "title": "ChildFund Brasil",
+    "link": "https://www.childfundbrasil.org.br/",
+    "description": "Institucional Wordpress website and blog",
+    "years": [
+      "2019", "2019"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript",
+      "php",
+      "wordpress",
+      "mysql"
+    ],
+    "group": [
+      "fullstack", "frontend", "backend"
+    ],
+    "experience": "ingage",
+    "tipo": "website"
+  },
+  {
+    "id": 22,
+    "title": "Smartbreeder",
+    "link": "https://smartbreeder.com.br/",
+    "description": "Institucional website",
+    "years": [
+      "2018", "2018"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript",
+      "php"
+    ],
+    "group": [
+      "frontend"
+    ],
+    "experience": "ingage",
+    "tipo": "website"
+  },
+  {
+    "id": 23,
+    "title": "Interfusão",
+    "link": "https://interfusaoti.com.br/",
+    "description": "Institucional Wordpress multilingual website and blog",
+    "years": [
+      "2019", "2019"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript",
+      "php",
+      "wordpress",
+      "mysql"
+    ],
+    "group": [
+      "fullstack", "frontend", "backend"
+    ],
+    "experience": "ingage",
+    "tipo": "website"
+  },
+  {
+    "id": 24,
+    "title": "",
+    "link": "https://silvaesoares.com/",
+    "description": "Institucional Wordpress website",
+    "years": [
+      "2019", "2019"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript",
+      "php",
+      "wordpress",
+      "mysql"
+    ],
+    "group": [
+      "fullstack", "frontend", "backend"
+    ],
+    "experience": "ingage",
+    "tipo": "website"
+  },
+  {
+    "id": 25,
+    "title": "Arquivar",
+    "link": "https://arquivar.com.br/seja-um-franqueado-arquivar/",
+    "description": "Institucional Wordpress landing page",
+    "years": [
+      "2020", "2020"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript",
+      "php",
+      "wordpress",
+      "mysql"
+    ],
+    "group": [
+      "frontend"
+    ],
+    "experience": "ingage",
+    "tipo": "landing-page"
+  },
+  {
+    "id": 26,
+    "title": "Pif Paf",
+    "link": "https://www.pifpaf.com.br/distribuidora-de-alimentos/",
+    "description": "Institucional landing page",
+    "years": [
+      "2013", "2016"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript",
+      "php",
+      "webflow"
+    ],
+    "group": [
+      "frontend"
+    ],
+    "experience": "ingage",
+    "tipo": "landing-page"
+  },
+  {
+    "id": 27,
+    "title": "Vestibular CMMG",
+    "link": "https://vestibular.cmmg.edu.br/",
+    "description": "Institucional landing page",
+    "years": [
+      "2020", "2020"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript"
+    ],
+    "group": [
+      "frontend"
+    ],
+    "experience": "ingage",
+    "tipo": "landing-page"
+  },
+  {
+    "id": 28,
+    "title": "Apadrinhe uma criança",
+    "link": "https://www.apadrinheumacrianca.org.br/",
+    "description": "Institucional landing page",
+    "years": [
+      "2018", "2018"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript",
+      "php",
+      "webflow"
+    ],
+    "group": [
+      "frontend"
+    ],
+    "experience": "ingage",
+    "tipo": "landing-page"
+  },
+  {
+    "id": 29,
+    "title": "Projetos Sociais",
+    "link": "https://www.projetossociais.org.br/",
+    "description": "Institucional landing page",
+    "years": [
+      "2018", "2018"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript",
+      "php",
+      "webflow"
+    ],
+    "group": [
+      "frontend"
+    ],
+    "experience": "ingage",
+    "tipo": "landing-page"
+  },
+  {
+    "id": 29,
+    "title": "Calculadora Pif Paf",
+    "link": "http://dev.ingagedigital.com.br/pifpaf/lp_calculadora/",
+    "description": "Barbecue food calculator",
+    "years": [
+      "2020", "2020"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript"
+    ],
+    "group": [
+      "frontend"
+    ],
+    "experience": "ingage",
+    "tipo": "landing-page"
+  },
+  {
+    "id": 29,
+    "title": "Calculadora Casa da Árvore",
+    "link": "https://sunew.com.br/calculadora-casa-da-arvore/",
+    "description": "Saving carbon emission calculator",
+    "years": [
+      "2019", "2019"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript"
+    ],
+    "group": [
+      "frontend"
+    ],
+    "experience": "ingage",
+    "tipo": "landing-page"
+  },
+  {
+    "id": 30,
+    "title": "Quiz NãoVoei",
+    "link": "https://naovoei.com/avaliar-indenizacao/",
+    "description": "Quiz to validate indemnity for commercial flights",
+    "years": [
+      "2018", "2019"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript",
+      "webflow",
+      "php",
+      "API"
+    ],
+    "group": [
+      "fullstack", "frontend", "backend"
+    ],
+    "experience": "ingage",
+    "tipo": "landing-page"
+  },
+  {
+    "id": 31,
+    "title": "Gaia Connection",
+    "link": "https://gaiaconnection.art.br/",
+    "description": "Festival information Wordpress website",
+    "years": [
+      "2013", "2016"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript",
+      "php",
+      "wordpress",
+      "mysql",
+      "webflow"
+    ],
+    "group": [
+      "fullstack", "frontend", "backend"
+    ],
+    "experience": "ingage",
+    "tipo": "landing-page"
+  },
+  {
+    "id": 32,
+    "title": "Get it from Brazil",
+    "link": "https://getitfrombrazil.com/",
+    "description": "Institucional Wordpress website",
+    "years": [
+      "2020", "2020"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript",
+      "php",
+      "wordpress",
+      "mysql"
+    ],
+    "group": [
+      "fullstack", "frontend", "backend"
+    ],
+    "experience": "ingage",
+    "tipo": "website"
+  },
+  {
+    "id": 33,
+    "title": "Monte das Araucárias",
+    "link": "https://montedasaraucarias.com.br/",
+    "description": "Real state development landing page",
+    "years": [
+      "2020", "2020"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript"
+    ],
+    "group": [
+      "frontend"
+    ],
+    "experience": "ingage",
+    "tipo": "landing-page"
+  },
+  {
+    "id": 34,
+    "title": "Blog Unicred Regional",
+    "link": "https://blog.unicreddigital.com.br/",
+    "description": "Instituional Wordpress blog",
+    "years": [
+      "2019", "2019"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript",
+      "php",
+      "wordpress",
+      "mysql"
+    ],
+    "group": [
+      "fullstack", "frontend", "backend"
+    ],
+    "experience": "ingage",
+    "tipo": "blog"
+  },
+  {
+    "id": 35,
+    "title": "Unicred + BMW",
+    "link": "https://www.campanhaunicred.com.br/",
+    "description": "Marketing campaign langing page",
+    "years": [
+      "2019", "2019"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript"
+    ],
+    "group": [
+      "frontend"
+    ],
+    "experience": "ingage",
+    "tipo": "landing-page"
+  },
+  {
+    "id": 36,
+    "title": "Perficamp",
+    "link": "https://www.perficamp.com.br/",
+    "description": "Institucional Wordpress website",
+    "years": [
+      "2018", "2018"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript",
+      "php",
+      "wordpress",
+      "mysql"
+    ],
+    "group": [
+      "frontend"
+    ],
+    "experience": "ingage",
+    "tipo": "website"
+  },
+  {
+    "id": 37,
+    "title": "Blog CSEM",
+    "link": "https://csembrasil.com.br/noticias-de-investimentos-em-pesquisa-e-desenvolvimento/",
+    "description": "Institucional Wordpress blog",
+    "years": [
+      "2019", "2019"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript",
+      "php",
+      "wordpress",
+      "mysql",
+      "webflow"
+    ],
+    "group": [
+      "frontend"
+    ],
+    "experience": "ingage",
+    "tipo": "blog"
+  },
+  {
+    "id": 38,
+    "title": "ADDEE",
+    "link": "https://addee.com.br/",
+    "description": "Institucional Wordpress website",
+    "years": [
+      "2019", "2019"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript",
+      "php",
+      "wordpress",
+      "mysql"
+    ],
+    "group": [
+      "fullstack", "frontend", "backend"
+    ],
+    "experience": "ingage",
+    "tipo": "website"
+  },
+  {
+    "id": 39,
+    "title": "Cooperativa Unicred",
+    "link": "https://www.unicreddigital.com.br/cooperativa-de-credito/",
+    "description": "Marketing campaign landing page",
+    "years": [
+      "2019", "2019"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript"
+    ],
+    "group": [
+      "frontend"
+    ],
+    "experience": "ingage",
+    "tipo": "landing-page"
+  },
+  {
+    "id": 40,
+    "title": "Tfleet",
+    "link": "http://tfleet.com.br/",
+    "description": "Institucional Wordpress website",
+    "years": [
+      "2018", "2018"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript",
+      "php",
+      "wordpress",
+      "mysql"
+    ],
+    "group": [
+      "fullstack", "frontend", "backend"
+    ],
+    "experience": "ingage",
+    "tipo": "website"
+  },
+  {
+    "id": 41,
+    "title": "Investimentos Inteligentes",
+    "link": "https://investimentosinteligentes.com.br/",
+    "description": "Institucional landing page",
+    "years": [
+      "2019", "2019"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript",
+      "webflow"
+    ],
+    "group": [
+      "fullstack", "frontend", "backend"
+    ],
+    "experience": "ingage",
+    "tipo": "landing-page"
+  },
+  {
+    "id": 42,
+    "title": "Rails To Do",
+    "link": "https://anadevrailstodo.herokuapp.com/",
+    "description": "To do app",
+    "years": [
+      "2018", "2018"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "ruby",
+      "rails",
+      "javascript"
+    ],
+    "group": [
+      "fullstack", "frontend", "backend"
+    ],
+    "experience": "academic",
+    "tipo": "side-project"
+  },
+  {
+    "id": 43,
+    "title": "#Javascript30",
+    "link": "https://anadev.com.br/js30/",
+    "description": "Javascript course",
+    "years": [
+      "2017", "2017"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript"
+    ],
+    "group": [
+      "frontend"
+    ],
+    "experience": "academic",
+    "tipo": "side-project"
+  },
+  {
+    "id": 44,
+    "title": "GiForecast",
+    "link": "https://anadev.com.br/projects/Giforecast/",
+    "description": "Choose a place on the map to see a GIF of the place's weather",
+    "years": [
+      "2016", "2016"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript"
+    ],
+    "group": [
+      "frontend"
+    ],
+    "tipo": "academic",
+    "experience": "univali"
+  },
+  {
+    "id": 45,
+    "title": "BusaoApp",
+    "link": "https://anadev.com.br/busaoApp/",
+    "description": "Concept idea for a community bus locating app",
+    "years": [
+      "2016", "2016"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript"
+    ],
+    "group": [
+      "frontend"
+    ],
+    "tipo": "academic",
+    "experience": "univali"
   }
 ]

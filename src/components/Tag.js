@@ -1,28 +1,25 @@
 import React from "react";
 import styled from "styled-components";
 
-const TagContainer = styled.div`
-  background-color: var(--menu_badge_bg);
-  display: inline-block;
-  border-radius: 50px;
-  margin: 3px 5px;
-`;
 const TagLink = styled.a`
-  padding: 5px 10px;
+  background: var(--roxin);
+  color: var(--roxo);
   display: inline-block;
-  font-size: 12px;
+  margin: 0px 5px 0 0;
+  padding: 2px 6px;
+  font-size: .5rem;
   line-height: 14px;
-  color: var(--menu_badge_txt);
-  margin: 0;
+  cursor: pointer;
+  &:hover {
+    color: var(--roxo);
+  }
 `;
 
 export const Tag = (props) => {
-  return (
-    <TagContainer>
-      <TagLink>
-        <span>{props.tag}</span>
-      </TagLink>
-    </TagContainer>
+  return (    
+    <TagLink>
+      <span>{props.tag}</span>
+    </TagLink>
   );
 };
 

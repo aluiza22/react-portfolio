@@ -17,7 +17,7 @@ const ProjectsList = styled.div`
 export const Projects = () => {
   return (   
       <section id="ProjectsPage" className="page">
-        <h2>What I've done</h2>
+        <h2>Projects</h2>
         <ProjectListingsProvider>
           <ProjectListingsConsumer>
             {({ projectsListings, allListings, updateFilter }) => (     
@@ -30,7 +30,9 @@ export const Projects = () => {
                     .map(listing => listing.years)}
                 />
                 <ProjectsList>
-                  {projectsListings.map(listing => (
+                  {projectsListings                    
+                    .sort((a,b) => b.years[0] - a.years[0])
+                    .map(listing => (
                     <Project listing={listing} key={listing.id} />
                   ))}
                 </ProjectsList>

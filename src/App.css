@@ -19,12 +19,13 @@ body {
 }
 
 .custom-select {
-	border-radius: 0;
+  border-radius: 0;
+  font-family: Lato, sans-serif;
 }
 .custom-select:focus {
     border-color:var(--verde);
     outline: 0;
-    box-shadow: 0 0 0 0.1rem var(--verde);
+    box-shadow: 0 0 0 2px var(--verde);
 }
 
 
@@ -88,24 +89,30 @@ footer a:before {
   height: 0;
   border-top: 5px solid transparent;
   border-left: 13px solid var(--roxo);
+  filter: drop-shadow(1px 1px 0px var(--verde));
   border-bottom: 5px solid transparent;
   margin-right: 5px;
-  transition: all .8s ease;
+  transition: color .8s ease;
 }
-footer a:hover {color: var(--roxo);}
+footer a:hover {color: var(--roxo); }
 footer a:focus, footer a:active {color: var(--verde);}
 footer a:hover:before, footer a:focus:before, 
-footer a:active:before, footer a[aria-current=page] {border-left-color: var(--verde);}
+footer a:active:before, footer a[aria-current=page] {
+  border-left-color: var(--verde); }
+footer a:hover:before, footer a:focus:before, 
+  footer a:active:before {
+  filter: drop-shadow(1px 1px 0px var(--roxo));
+}
+#content {grid-area: "content";}
+aside {font-size: 14px; grid-area: "sidebar"; order: 2; }
 main {
   display: grid;
   grid-template-areas: 
-    "main"
+    "content"
     "sidebar";
-  grid-gap: 30px;
+  grid-gap: 0px;
   margin-bottom: 80px;
 }
-#content {grid-area: "main";}
-aside {padding-bottom: 120px; font-size: 14px; grid-area: "sidebar"; }
 section {padding:60px 30px;}
 
 aside p {margin-bottom: 0;}
@@ -128,7 +135,7 @@ progress[value]::-webkit-progress-value {
     position: relative;    
     border-radius:0px;   
     background: var(--roxin);
-    background-image: linear-gradient(-45deg, #a9039b, #ffc9fa, #a9039b, #ffc9fa);
+    /*background-image: linear-gradient(-45deg, #a9039b, #ffc9fa, #a9039b, #ffc9fa);*/
     background-size: 400% 400%;
     animation: progressFill 5s ease infinite;
     transition: 0.5s all;
@@ -151,7 +158,7 @@ progress[value]:after {
 }
 .progress-bar span {
     background: var(--roxin);
-    background-image: linear-gradient(-45deg, #a9039b, #ffc9fa, #a9039b, #ffc9fa);
+    /*background-image: linear-gradient(-45deg, #a9039b, #ffc9fa, #a9039b, #ffc9fa);*/
     background-size: 400% 400%;
     animation: progressFill 5s ease infinite;
     transition: 0.5s all;
@@ -180,6 +187,7 @@ p[data-value] {position: relative; }
   body {background-image: linear-gradient(90deg, #ffffff 30%, #cff4df 30%);}
   main {grid-template-columns: 28% 68%; grid-gap: 4%; margin-bottom:0;}
   footer:after {width: 40%; height:120%;}
+  aside {padding-bottom: 120px; order: 0;}
 }
 
 @media (max-height:550px) {

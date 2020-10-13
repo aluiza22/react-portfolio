@@ -1,20 +1,24 @@
 :root {
-  --main_color: "#cb3efd";
-  --text: "#424242";
-  --links: "#0aca93";
-  --menu_bg: "#424242";
-  --menu_links: "#0aca93";
-  --menu_badge_bg: "#0aca93";
-  --menu_badge_txt: "#424242";
+  --main_color: #cb3efd;
+  --text: #424242;
+  --links: #0aca93;
+  --menu_bg: #424242;
+  --menu_links: #0aca93;
+  --menu_badge_bg: #0aca93;
+  --menu_badge_txt: #424242;
 
   --roxo: #a9039b;
   --roxin: #ffc9fa;
   --verde: #6afaa9;
   --verdin: #cff4df;
-  --cinza: "#424242";
-  --cinzin: "#bbbbbb";
+  --cinzao: #424242;
+  --cinza: #777777;
+  --cinzin: #bbbbbb;
+
   --image_mask_start: 247,200,250;
   --image_mask_end: 169, 3, 155;
+  --image_mask_start: 207, 244, 224;
+  --image_mask_end: 106, 250, 169;
 }
 
 body {
@@ -35,7 +39,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Cabin', sans-serif;
   text-transform: uppercase;
   color:var(--roxo);
+  text-shadow: 2px 2px 0px var(--roxin);
 }
+h3, h4, h5, h6 {text-shadow: 1px 1px 0px var(--roxin);}
 h3 {color:var(--verde)}
 
 ul {list-style: none; padding:0;}
@@ -104,14 +110,16 @@ header h1 {
   text-align:right;
   cursor: default;
 }
-header h1 span {transition: all .8s ease;}
+header h1 span {transition: all .6s ease;
+  text-shadow: 2px 2px 0px var(--roxin);}
 header h1 span:hover {color: #6afaa9;}
 header h1 small {
   font-size: .5em;
   line-height: 1;
   margin-top: -6px;
   display: block;
-  color: var(--verde);
+  color: var(--roxin);
+  text-shadow: 1px 1px 0px var(--verde);
 }
 header figure {
   position:absolute;

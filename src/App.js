@@ -28,6 +28,13 @@ function App() {
 				            </div>
 				        </progress>
 					</li>
+					<li>PHP 
+						<progress data-years="7" max="100" value="80">
+							<div className="progress-bar">
+				                <span style={{width:'80%'}}>80%</span>
+				            </div>
+				        </progress>
+					</li>
 					<li>JS 
 						<progress data-years="6" max="100" value="70">
 							<div className="progress-bar">
@@ -35,31 +42,31 @@ function App() {
 				            </div>
 				        </progress>
 					</li>
-					<li>React 
-						<progress data-years="1" max="100" value="50">
-							<div className="progress-bar">
-				                <span style={{width:'50%'}}>50%</span>
-				            </div>
-				        </progress>
-					</li>
-					<li>PHP 
-						<progress data-years="7" max="100" value="70">
+					<li>Wordpress 
+						<progress data-years="5" max="100" value="70">
 							<div className="progress-bar">
 				                <span style={{width:'70%'}}>70%</span>
 				            </div>
 				        </progress>
 					</li>
-					<li>Wordpress 
-						<progress data-years="5" max="100" value="80">
+					<li>Magento 
+						<progress data-years="4" max="100" value="60">
 							<div className="progress-bar">
-				                <span style={{width:'80%'}}>80%</span>
+				                <span style={{width:'60%'}}>60%</span>
 				            </div>
 				        </progress>
 					</li>
-					<li>Magento 
-						<progress data-years="4" max="100" value="80">
+					<li>React Native
+						<progress data-years="2" max="100" value="20">
 							<div className="progress-bar">
-				                <span style={{width:'80%'}}>80%</span>
+				                <span style={{width:'20%'}}>20%</span>
+				            </div>
+				        </progress>
+					</li>
+					<li>React 
+						<progress data-years="2" max="100" value="20">
+							<div className="progress-bar">
+				                <span style={{width:'20%'}}>20%</span>
 				            </div>
 				        </progress>
 					</li>
@@ -67,7 +74,7 @@ function App() {
 				<p>Ajax | APIs REST | Bootstrap | CakePHP | Cordova | Git | JQuery | JSON | Linux | MongoDB | MVC | MySQL | npm | Phonegap | Photoshop | PostgreSQL | React Native | Ruby on Rails | SASS | SCRUM | SEO | SVN | Trello | Web services | Windows | WooCommerce | Vue.js | XML</p>
 			</section>
 	      </aside>
-	      <Router>
+	      <Router id="content">
 	        <Projects path="/" />
 	        <AboutMe path="me" />
 	        <Blog path="blog" />

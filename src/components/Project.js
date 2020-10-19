@@ -29,8 +29,10 @@ const ProjectInfo = styled.div`
   flex-direction: column;
   box-sizing: border-box;
   p {margin:0; font-size: .8rem; color: var(--cinza)}
-  time {background: var(--roxin); color: #fff; position:absolute; top: 0; left:0; 
+  time, small {background: var(--roxin); color: #fff; position:absolute; top: 0; left:0; 
       font-size: .6rem; padding: .1rem 10px; font-weight: bold;} 
+  small {left:unset; right:0; background: var(--verde);}
+  small.mine {background: var(--cinzin);}
 `;
 const ProjectName = styled.h3`
   position: relative;
@@ -47,12 +49,13 @@ const ProjectTags = styled.div`
 
 
 export const Project = (props) => {
-  const {id, image, title, link, description, years, skills } = props.listing;
+  const {id, image, title, link, description, years, skills, experience, type } = props.listing;
   return (
     <ProjectBox className="card text-white" key={id} style={image ? {background: `none`} : {}}>
       <ProjectImage style={{ backgroundImage: `linear-gradient(rgba(var(--image_mask_start),.79), rgba(var(--image_mask_start),.99)), url('${image}')` }} />
       <ProjectInfo className="card-img-overlay"> 
         <time>{years.join(' - ')}</time>
+        <small className={type === 'academic' || type === 'side-project' ? ' mine' : ''}>{type ? type.replace('-', ' ') : ''}{type && experience ? ' | ' : ''}{experience ? experience.replace('-', ' ') : ''}</small>
         <ProjectName><a href={link} target="_blank" rel="noopener noreferrer">{title}</a></ProjectName>
         <p>{description}</p>       
         <ProjectTags>

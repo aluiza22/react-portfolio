@@ -11,6 +11,7 @@ const ProjectListingsContext = React.createContext(DefaultState);
 export const ProjectListingsConsumer = ProjectListingsContext.Consumer;
 
 export class ProjectListingsProvider extends React.Component {
+  
   static applyFilter(listings, filter) {
     const { skill, year } = filter;
     let result = listings;
@@ -24,7 +25,7 @@ export class ProjectListingsProvider extends React.Component {
   }
 
   state = DefaultState;
-
+  
   componentDidMount() {
     /*fetch('../../public/server/listings.json')
       .then(res => res.json())
@@ -49,7 +50,6 @@ export class ProjectListingsProvider extends React.Component {
   render() {
     const { children } = this.props;
     const { projectsListings, filter } = this.state;
-
     const filteredListings = ProjectListingsProvider.applyFilter(
       projectsListings,
       filter

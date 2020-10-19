@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import {navigate} from "@reach/router";
 
 const ProjectFilterContainer = styled.div`
     margin: 30px 0px 10px;
@@ -11,7 +12,7 @@ const FilterForm = styled.form`
     background-color: transparent;
     color: var(--cinza);
     margin-bottom: 5px;
-    border: 3px solid var(--roxin);
+    border: 2px solid var(--roxin);
     text-shadow: 1px 1px 0px var(--roxin);
     font-size: .9rem;
     padding: 0.25rem 1.75rem 0.25rem 0.75rem;
@@ -33,7 +34,8 @@ export class ProjectFilter extends React.Component {
   handleChange = (prop, value) => {
     this.setState({
       [prop]: value
-    })
+    });
+    navigate("/projects/1");
   }
 
   render() {

@@ -75,18 +75,18 @@ function App() {
 			</section>
 	      </aside>
 	      <Router id="content">
-	        <Projects path="/" />
-	        <AboutMe path="me" />
+	        <AboutMe path="/" />
+	        <Projects path="projects/:pageNumber" />
 	        <Blog path="blog" />
-	        <Quiz path="quiz" />
+	        {/*<Quiz path="quiz" />*/}
 	      </Router>
 	    </main>
 	    <footer>
 			<nav>
-				<Link to="/">projects</Link>
-				<Link to="me">about me</Link>
+				<Link to="/">about me</Link>
+				<Link to="projects/1">projects</Link>
 				<Link to="blog">blog</Link>
-				<Link to="quiz">are we a good fit?</Link>
+				{/*<Link to="quiz">are we a good fit?</Link>*/}
 			</nav>
 		</footer>
 	</>

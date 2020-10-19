@@ -24,10 +24,9 @@ body {
 }
 .custom-select:focus {
     border-color:var(--verde);
-    outline: 0;
-    box-shadow: 0 0 0 2px var(--verde);
+    box-shadow: 0 0 0 0px var(--verde);
 }
-
+*:focus:not(:focus-visible), .custom-select:focus:not(:focus-visible) { outline: none; } { outline: none; }
 
 footer {
   position:fixed;

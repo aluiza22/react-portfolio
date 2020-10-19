@@ -24,37 +24,44 @@ export const AboutMe = () => {
         <h3>my interests</h3>
         <InterestsStyle>
           <li>
-            <svg height="55px" width="45px" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 336.242 336.242">
+            <svg title="Food" height="55px" width="45px" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 336.242 336.242">
+              <title>Food</title>
               <use href="#icon-donut"></use>
             </svg>      
           </li>
           <li>
-            <svg height="55px" width="45px" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 -2 487.997 487">
+            <svg title="Music" height="55px" width="45px" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 -2 487.997 487">
+              <title>Music</title>
               <use href="#icon-music"></use>
             </svg> 
           </li>
           <li>
-            <svg height="55px" width="45px" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 511.999 511.999">
+            <svg title="Spreadsheets" height="55px" width="45px" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 511.999 511.999">
+              <title>Spreadsheets</title>
               <use href="#icon-excel"></use>
             </svg> 
           </li>
           <li>
-            <svg height="55px" width="45px" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+            <svg title="Coffee" height="55px" width="45px" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+              <title>Coffee</title>
               <use href="#icon-coffee"></use>
             </svg> 
           </li>
           <li>
-            <svg height="55px" width="45px" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <svg title="Design" height="55px" width="45px" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <title>Design</title>
               <use href="#icon-design"></use>
             </svg> 
           </li>
           <li>
-            <svg height="55px" width="45px" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <svg title="Technology" height="55px" width="45px" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <title>Technology</title>
               <use href="#icon-tech"></use>
             </svg> 
           </li>
           <li>
-            <svg height="55px" width="45px" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="-131 0 511 512">
+            <svg title="Dance" height="55px" width="45px" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="-131 0 511 512">
+              <title>Dance</title>
               <use href="#icon-dance"></use>
             </svg> 
           </li>

@@ -3,8 +3,10 @@ import { Router, Link } from "@reach/router";
 import { Projects } from "./pages/Projects";
 import { AboutMe } from "./pages/AboutMe";
 import { Blog } from "./pages/Blog";
-import { Quiz } from "./pages/Quiz";
+//import { Quiz } from "./pages/Quiz";
 import "./App.css";
+import SkillsCloud from "./components/SkillsCloud";
+import projectsData from "./core/projects.json";
 
 function App() {
   return (
@@ -71,12 +73,13 @@ function App() {
 				        </progress>
 					</li>
 					</ul>
-				<p>Ajax | APIs REST | Bootstrap | CakePHP | Cordova | Git | JQuery | JSON | Linux | MongoDB | MVC | MySQL | npm | Phonegap | Photoshop | PostgreSQL | React Native | Ruby on Rails | SASS | SCRUM | SEO | SVN | Trello | Web services | Windows | WooCommerce | Vue.js | XML</p>
+				
+					<SkillsCloud projects={projectsData} />
 			</section>
 	      </aside>
 	      <Router id="content">
 	        <AboutMe path="/" />
-	        <Projects path="projects/:pageNumber" />
+	        <Projects path="projects/:pageNumber" projects={projectsData} />
 	        <Blog path="blog" />
 	        {/*<Quiz path="quiz" />*/}
 	      </Router>

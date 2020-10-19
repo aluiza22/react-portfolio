@@ -26,7 +26,7 @@ export const Projects = (props) => {
   return (   
       <section id="ProjectsPage" className="page">
         <h2>Projects</h2>
-        <ProjectListingsProvider>
+        <ProjectListingsProvider projects={props.projects}>
           <ProjectListingsConsumer>
             {({ projectsListings, allListings, updateFilter }) => (     
               <>      

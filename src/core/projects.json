@@ -928,8 +928,7 @@
     "skills": [
       "html",
       "css",
-      "ruby",
-      "rails",
+      "ruby on rails",
       "javascript"
     ],
     "group": [
@@ -994,5 +993,25 @@
     ],
     "type": "academic",
     "experience": "univali"
+  },
+  {
+    "id": 48,
+    "title": "Portfolio",
+    "link": "https://anadev.com.br/",
+    "description": "Portfolio to showcase my journey and projects",
+    "years": [
+      "2020", "2010"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript",
+      "react"
+    ],
+    "group": [
+      "frontend"
+    ],
+    "type": "side-projects",
+    "experience": "freela"
   }
 ]

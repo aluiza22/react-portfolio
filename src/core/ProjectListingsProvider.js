@@ -1,5 +1,5 @@
 import React from "react";
-import data from "./projects.json";
+//import data from "./projects.json";
 
 const DefaultState = {
   projectsListings: [],
@@ -32,7 +32,7 @@ export class ProjectListingsProvider extends React.Component {
       .then(res => {
         this.setState({ projectsListings: res })
       });*/
-    this.setState({ projectsListings: data });
+    this.setState({ projectsListings: this.props.projects });
     //console.log(this.state.projectsListings);
   }
 

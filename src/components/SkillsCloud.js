@@ -33,7 +33,6 @@ export default function SkillsCloud({projects}) {
   function populateSkills(item, index) {
     allSkills[item] = allSkills[item] ? allSkills[item]+1 : 1;
   }
-  console.log(typeof allSkills);
 
   return (
     <SkillsCloudStyle data-test={allSkills} className="teste">

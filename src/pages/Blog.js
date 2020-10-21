@@ -24,31 +24,14 @@ const Post = styled.div`
 const LoadingText = styled.div`
   color: var(--verde);
 `;
-
-export class Blog extends React.Component {
-    constructor() {
-        super();
-        this.state = {
-          posts: []
-        }
-    }
-    componentDidMount() {
-        let dataURL = "https://frontmap.anadev.com.br/wp-json/wp/v2/posts?_embed";
-        fetch(dataURL)
-          .then(res => res.json())
-          .then(res => {
-            this.setState({
-              posts: res
-            })
-          })
-    }
-    render() {
+export const Blog = (props) => {
+    
         return (   
             <section id="BlogPage" className="page">
               <h2>My Frontend Roadmap</h2>
-              <LoadingText>{this.state.posts.length > 0 ? '': `loading...`}</LoadingText>
+              <LoadingText>{props.posts.length > 0 ? '': `loading...`}</LoadingText>
               <PostGrid>                
-                {this.state.posts.map((post) => {
+                {props.posts.map((post) => {
                     let post_date = new Date(post.date);
                     return (<Post key={post.id} style={{ backgroundImage: `linear-gradient(rgba(var(--image_mask_start),.79), rgba(var(--image_mask_start),.99)), url('${post._embedded['wp:featuredmedia'][0].source_url}')` }}>
                       <h3><a rel="noopener noreferrer" target="_blank" href={post.link}>{post.title.rendered}</a></h3>
@@ -58,10 +41,7 @@ export class Blog extends React.Component {
                 })}
               </PostGrid>
             </section>
-        );
-    }
-
-  
+        );  
 }
 
 export default Blog;

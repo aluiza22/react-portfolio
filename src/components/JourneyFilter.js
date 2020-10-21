@@ -49,7 +49,7 @@ const JourneyFilterStyles = styled.nav`
     z-index: -2;
   }
   
-  @media (min-width: 390px) {
+  @media (min-width: 480px) {
     li:nth-child(even):before {top: -25px;}
   }
   

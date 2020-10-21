@@ -8,7 +8,8 @@ const SkillsCloudStyle = styled.ul`
   align-items: center;
   justify-items: center;
   border-right:0;
-  margin: 2rem 0;
+  margin: 2rem auto;
+  max-width: 450px;
   text-align: center;
   font-size: .8rem;
   li {

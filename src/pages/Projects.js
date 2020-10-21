@@ -12,7 +12,10 @@ const ProjectsList = styled.div`
   border: none;
   display: grid;
   grid-gap: 15px;
-  grid-template-columns: repeat(auto-fit, minmax(300px, .5fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+  @media (min-width: 480px) {
+    grid-template-columns: repeat(auto-fit, minmax(300px, .5fr));
+  }
 `;
 const Empty = styled.span`
   color: var(--cinzin);

@@ -68,6 +68,7 @@
     "id": 4,
     "title": "Rocha Decorações",
     "link": "https://rochadecoracoes.com.br/",
+    "image": "https://anadev.com.br/projects/images/thumbs/rocha.jpg",
     "description": "Comercial website with quotes funcionality",
     "years": [
       "2012", "2012"
@@ -88,6 +89,7 @@
     "id": 5,
     "title": "Importadora Kima",
     "link": "http://importadorakima.com.br/",
+    "image": "https://anadev.com.br/projects/images/thumbs/kima.jpg",
     "description": "Magento store for artesanal products",
     "years": [
       "2014", "2014"
@@ -110,6 +112,7 @@
     "id": 6,
     "title": "Loja Instaladora",
     "link": "http://www.lojainstaladora.com.br/",
+    "image": "https://anadev.com.br/projects/images/thumbs/instaladora.png",
     "description": "Wordpress comercial website with quotes funcionality",
     "years": [
       "2017", "2017"
@@ -132,6 +135,7 @@
     "id": 7,
     "title": "Casatrend",
     "link": "https://casatrend.com.br/",
+    "image": "https://anadev.com.br/projects/images/thumbs/casatrend.png",
     "description": "Institucional Wordpress website",
     "years": [
       "2017", "2017"
@@ -154,6 +158,7 @@
     "id": 8,
     "title": "Exponent Engenharia",
     "link": "http://exponent.eng.br/",
+    "image": "https://anadev.com.br/projects/images/thumbs/exponent.png",
     "description": "Institucional Wordpress website",
     "years": [
       "2018", "2018"
@@ -176,6 +181,7 @@
     "id": 9,
     "title": "Forjaria Krux",
     "link": "https://forjariakrux.com/",
+    "image": "https://anadev.com.br/projects/images/thumbs/krux.png",
     "description": "Gothic jewlery Magento ecommerce",
     "years": [
       "2017", "2018"
@@ -198,6 +204,7 @@
     "id": 10,
     "title": "Tavares e Bastos",
     "link": "http://tavaresbastos.com.br/",
+    "image": "https://anadev.com.br/projects/images/thumbs/tavares.jpg",
     "description": "Institucional Wordpress website",
     "years": [
       "2017", "2017"
@@ -220,6 +227,7 @@
     "id": 11,
     "title": "Robustec",
     "link": "https://www.robustec.ind.br/",
+    "image": "https://anadev.com.br/projects/images/thumbs/robustec.png",
     "description": "Wordpress comercial website with quotes funcionality",
     "years": [
       "2017", "2018"
@@ -242,6 +250,7 @@
     "id": 12,
     "title": "Plenus Empreendimentos",
     "link": "http://plenusempreendimentos.com.br/",
+    "image": "https://anadev.com.br/projects/images/thumbs/plenus.jpg",
     "description": "Institucional Wordpress website",
     "years": [
       "2018", "2018"
@@ -264,6 +273,7 @@
     "id": 13,
     "title": "Cabeçudas Iate Clube",
     "link": "http://cabecudasiate.com.br/",
+    "image": "https://anadev.com.br/projects/images/thumbs/cabecudas.jpg",
     "description": "Institucional Wordpress website",
     "years": [
       "2018", "2018"
@@ -286,6 +296,7 @@
     "id": 14,
     "title": "Midas Comex",
     "link": "http://www.midascomex.com.br/",
+    "image": "https://anadev.com.br/projects/images/thumbs/midas.jpg",
     "description": "Institucional Wordpress website",
     "years": [
       "2018", "2018"
@@ -308,6 +319,7 @@
     "id": 15,
     "title": "Sorvetes Stringari",
     "link": "http://stringari.com.br/",
+    "image": "https://anadev.com.br/projects/images/thumbs/stringari.png",
     "description": "Institucional Wordpress website",
     "years": [
       "2018", "2018"
@@ -416,7 +428,7 @@
   },
   {
     "id": 20,
-    "title": "",
+    "title": "Concessionária Reviver",
     "link": "https://concessionariareviver.com.br/",
     "description": "Institucional website",
     "years": [
@@ -921,6 +933,7 @@
     "id": 42,
     "title": "Rails To Do",
     "link": "https://anadevrailstodo.herokuapp.com/",
+    "image": "https://anadev.com.br/projects/images/thumbs/todo.png",
     "description": "To do app",
     "years": [
       "2018", "2018"
@@ -960,6 +973,7 @@
     "id": 44,
     "title": "GiForecast",
     "link": "https://anadev.com.br/projects/Giforecast/",
+    "image": "https://anadev.com.br/projects/images/thumbs/giforecast.jpg",
     "description": "Choose a place on the map to see a GIF of the place's weather",
     "years": [
       "2016", "2016"
@@ -979,6 +993,7 @@
     "id": 45,
     "title": "BusaoApp",
     "link": "https://anadev.com.br/busaoApp/",
+    "image": "https://anadev.com.br/projects/images/thumbs/busaoapp.jpg",
     "description": "Concept idea for a community bus locating app",
     "years": [
       "2016", "2016"
@@ -996,11 +1011,31 @@
   },
   {
     "id": 48,
-    "title": "Portfolio",
-    "link": "https://anadev.com.br/",
-    "description": "Portfolio to showcase my journey and projects",
+    "title": "Portfolio 1.0",
+    "link": "https://anadev.com.br/v1",
+    "image": "https://anadev.com.br/projects/images/thumbs/portfolio_1.jpg",
+    "description": "My first portfolio to showcase my projects",
     "years": [
-      "2020", "2010"
+      "2016", "2016"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript"
+    ],
+    "group": [
+      "frontend"
+    ],
+    "type": "side-projects",
+    "experience": "freela"
+  },
+  {
+    "id": 49,
+    "title": "Portfolio 2.0",
+    "link": "https://anadev.com.br/",
+    "description": "Updated portfolio to showcase my journey and projects",
+    "years": [
+      "2020", "2020"
     ],
     "skills": [
       "html",

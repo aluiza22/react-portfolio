@@ -6,7 +6,7 @@ import Timeline from "../components/Timeline";
 const InterestsStyle = styled.ol`
   list-style:none;
   display: grid;
-  grid-template-columns: repeat(auto-fit, 60px);
+  grid-template-columns: repeat(auto-fit, 80px);
 `;
 
 export const AboutMe = () => {

@@ -41,8 +41,8 @@ export default function Pagination({
   const hasPrevPage = prevPage >= 1;
   return (
     <PaginationStyles>
-      <Link disabled={!hasPrevPage} to={`${base}/${prevPage}`}>
-        <span role="img" aria-label="back arrow">⬅️</span> Prev
+      <Link disabled={!hasPrevPage} to={`${base}/${prevPage}`} alt="Previous">
+        &#60;
       </Link>
       {Array.from({ length: totalPages }).map((_, i) => (
         <Link
@@ -53,8 +53,8 @@ export default function Pagination({
           {i + 1}
         </Link>
       ))}
-      <Link disabled={!hasNextPage} to={`${base}/${nextPage}`}>
-        Next <span role="img" aria-label="forward arrow">➡️</span>
+      <Link disabled={!hasNextPage} to={`${base}/${nextPage}`} alt="Next">
+        &#62;
       </Link>
     </PaginationStyles>
   );

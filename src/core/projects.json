@@ -1048,5 +1048,46 @@
     ],
     "type": "side-projects",
     "experience": "freela"
+  },
+  {
+    "id": 50,
+    "title": "Week Planner",
+    "link": "https://weekplanner.anadev.com.br/",
+    "description": "Routine planner to manage tasks.",
+    "years": [
+      "2020", "2020"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript",
+      "react",
+      "beatiful dnd",
+      "localstorage"
+    ],
+    "group": [
+      "frontend"
+    ],
+    "type": "side-projects",
+    "experience": "freela"
+  },
+  {
+    "id": 51,
+    "title": "Background Remover",
+    "link": "http://removebg.caiocv.com/",
+    "description": "Application to upload a photo and have its background removed.",
+    "years": [
+      "2020", "2020"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript"
+    ],
+    "group": [
+      "frontend"
+    ],
+    "type": "side-projects",
+    "experience": "freela"
   }
 ]

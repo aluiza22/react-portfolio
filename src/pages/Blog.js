@@ -33,7 +33,8 @@ export const Blog = (props) => {
               <PostGrid>                
                 {props.posts.map((post) => {
                     let post_date = new Date(post.date);
-                    return (<Post key={post.id} style={{ backgroundImage: `linear-gradient(rgba(var(--image_mask_start),.79), rgba(var(--image_mask_start),.99)), url('${post._embedded['wp:featuredmedia'][0].source_url}')` }}>
+                    let featuredimage = post._embedded['wp:featuredmedia'] ? post._embedded['wp:featuredmedia'][0].source_url : 'https://via.placeholder.com/728x400.png?text=visit+frontmap.anadev.com.br';
+                    return (<Post key={post.id} style={{ backgroundImage: `linear-gradient(rgba(var(--image_mask_start),.79), rgba(var(--image_mask_start),.99)), url('${featuredimage}')` }}>
                       <h3><a rel="noopener noreferrer" target="_blank" href={post.link}>{post.title.rendered}</a></h3>
                       <time>{post_date.toLocaleDateString("en-US", { year: 'numeric', month: 'long', day: 'numeric' })}</time>
                       <div dangerouslySetInnerHTML={ {__html: post.excerpt.rendered } }></div>

@@ -89,9 +89,9 @@ export class App extends React.Component {
 									</div>
 								</progress>
 							</li>
-							</ul>
-						
-							<SkillsCloud projects={projectsData} />
+						</ul>
+						<SkillsCloud projects={projectsData} />
+						<a id="resume" href="/resume.pdf" target="_blank">see my resume</a>
 					</section>
 				</aside>
 				<Router id="content">

@@ -7,6 +7,15 @@ const InterestsStyle = styled.ol`
   list-style:none;
   display: grid;
   grid-template-columns: repeat(auto-fit, 80px);
+  li {text-align:center;}
+  span {
+    font-size: .5em;
+    display: block;
+    text-transform: lowercase;
+    font-style:italic;
+    font-weight:bold;
+    color: var(--roxo);
+  }
 `;
 
 export const AboutMe = () => {
@@ -17,7 +26,7 @@ export const AboutMe = () => {
         <p>I work as a web developer since 2013 building websites, e-commerces, and blogs 
           <br/>using mainly HTML, CSS, JS, PHP, MySQL, WordPress and Magento. 
           <br/>I tried other technologies on the way, but recently I&#39;m focusing on React.
-          <br/><strong>I love transforming design ideas to working applications</strong>, 
+          <br/><strong>I love transforming design ideas into working applications</strong>, 
           <br/>so projects with innovative and beautiful designs make my heart glow!</p>
         <h3>my journey</h3>
         <Timeline />
@@ -28,42 +37,49 @@ export const AboutMe = () => {
               <title>Food</title>
               <use href="#icon-donut"></use>
             </svg>      
+            <span>Food</span>
           </li>
           <li>
             <svg title="Music" height="55px" width="45px" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 -2 487.997 487">
               <title>Music</title>
               <use href="#icon-music"></use>
             </svg> 
+            <span>Music</span>
           </li>
           <li>
             <svg title="Spreadsheets" height="55px" width="45px" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 511.999 511.999">
               <title>Spreadsheets</title>
               <use href="#icon-excel"></use>
             </svg> 
+            <span>Spreadsheets</span>
           </li>
           <li>
             <svg title="Coffee" height="55px" width="45px" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
               <title>Coffee</title>
               <use href="#icon-coffee"></use>
             </svg> 
+            <span>Coffee</span>
           </li>
           <li>
             <svg title="Design" height="55px" width="45px" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
               <title>Design</title>
               <use href="#icon-design"></use>
             </svg> 
+            <span>Design</span>
           </li>
           <li>
             <svg title="Technology" height="55px" width="45px" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
               <title>Technology</title>
               <use href="#icon-tech"></use>
             </svg> 
+            <span>Technology</span>
           </li>
           <li>
             <svg title="Dance" height="55px" width="45px" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="-131 0 511 512">
               <title>Dance</title>
               <use href="#icon-dance"></use>
             </svg> 
+            <span>Dance</span>
           </li>
         </InterestsStyle>
       </section>

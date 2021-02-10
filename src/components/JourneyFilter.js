@@ -56,7 +56,7 @@ const JourneyFilterStyles = styled.nav`
 `;
 
 const DefaultState = {
-    year: ''
+    year: '↝'
 }
 
 export class JourneyFilter extends React.Component {
@@ -86,7 +86,7 @@ export class JourneyFilter extends React.Component {
                 key={i} 
                 onClick={e => {this.handleChange( 'year', e.currentTarget.dataset.year ); setTimeout(() => updateFilter(this.state), 0);}} 
                 data-year={yr} 
-                className={yr === year || (year === '' && i === 0) ? 'active':''}>    
+                className={yr === year || (year === '↝' && i === allYears.length-1) ? 'active':''}>    
             </li>
         ))}       
         </ul>

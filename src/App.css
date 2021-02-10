@@ -169,6 +169,10 @@ p[data-value] {position: relative; }
 
 .page h2 {margin-bottom: 40px; padding-bottom:10px; border-bottom: 2px solid;}
 
+#resume {text-align: center; display: block; border: 2px solid var(--roxin); color: var(--roxo); margin: 20px auto 0;
+  padding:8px; font-weight: bold; font-style: italic;
+}
+#resume:hover {background: var(--roxin); text-decoration: none;}
 
 @-webkit-keyframes progressFill {
   0% { background-position: 0% 50%; }

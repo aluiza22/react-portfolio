@@ -43,7 +43,7 @@ export const Projects = (props) => {
                 <Empty>{projectsListings.length === 0 ? 'no projects found' : ''}</Empty>
                 <ProjectsList>                  
                   {projectsListings                    
-                    .sort((a,b) => b.years[0] - a.years[0])
+                    .sort((a,b) => b.years[0] - a.years[0] || b.id - a.id)
                     .slice(start,end)
                     .map(listing => (
                     <Project listing={listing} key={listing.id} />

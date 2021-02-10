@@ -25,8 +25,10 @@ export class JourneyListingsProvider extends React.Component {
   state = DefaultState;
 
   componentDidMount() {   
-    const firstYear = data.map(listing => listing.years).sort()[0][0];
-    this.setState({ journeyListings: data, filter: {year: firstYear} });
+    //const firstYear = data.map(listing => listing.years).sort()[0][0];
+    //this.setState({ journeyListings: data, filter: {year: firstYear} });
+    this.setState({ journeyListings: data, filter: {year: "↝"} });
+    
   }
 
   getListingByProjectId = projectsId => {

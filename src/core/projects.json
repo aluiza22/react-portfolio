@@ -1089,5 +1089,25 @@
     ],
     "type": "side-projects",
     "experience": "freela"
+  },
+  {
+    "id": 52,
+    "title": "Wheel of life",
+    "link": "https://wheeloflife.anadev.com.br/",
+    "description": "Helpful tool to improve life balance",
+    "years": [
+      "2021", "2021"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript",
+      "react"
+    ],
+    "group": [
+      "frontend"
+    ],
+    "type": "side-projects",
+    "experience": "freela"
   }
 ]

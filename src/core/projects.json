@@ -1027,7 +1027,7 @@
       "frontend"
     ],
     "type": "side-projects",
-    "experience": "freela"
+    "experience": "open-source"
   },
   {
     "id": 49,
@@ -1047,7 +1047,7 @@
       "frontend"
     ],
     "type": "side-projects",
-    "experience": "freela"
+    "experience": "open-source"
   },
   {
     "id": 50,
@@ -1069,7 +1069,7 @@
       "frontend"
     ],
     "type": "side-projects",
-    "experience": "freela"
+    "experience": "open-source"
   },
   {
     "id": 51,
@@ -1088,7 +1088,7 @@
       "frontend"
     ],
     "type": "side-projects",
-    "experience": "freela"
+    "experience": "open-source"
   },
   {
     "id": 52,
@@ -1108,6 +1108,45 @@
       "frontend"
     ],
     "type": "side-projects",
-    "experience": "freela"
+    "experience": "open-source"
+  },
+  {
+    "id": 53,
+    "title": "Images Extractor Extension",
+    "link": "https://chrome.google.com/webstore/detail/image-finder/nejmjohiggmikmmhagccbogaohhbicjc",
+    "description": "Scrapes the web page and lists all images found",
+    "years": [
+      "2021", "2021"
+    ],
+    "skills": [
+      "javascript",
+      "chrome extension"
+    ],
+    "group": [
+      "frontend"
+    ],
+    "type": "side-projects",
+    "experience": "open-source"
+  },
+  {
+    "id": 54,
+    "title": "Automatic data collector",
+    "link": "https://github.com/MPMG-DCC-UFMG/C01/",
+    "description": "Tools for building and maintaining web page collectors",
+    "years": [
+      "2021", "2021"
+    ],
+    "skills": [
+      "python",
+      "django",
+      "javascript",
+      "html",
+      "css"
+    ],
+    "group": [
+      "fullstack","frontend"
+    ],
+    "type": "application",
+    "experience": "open-source"
   }
 ]

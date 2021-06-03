@@ -36,5 +36,6 @@
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4"
-  }
+  },
+  "homepage": "https://anadev.com.br"
 }
